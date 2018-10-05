@@ -1,5 +1,5 @@
 from unittest import TestCase
-from app.DES.des_key import des_key as dk
+from app.DES import des_key as dk
 from app.DES.bit_utils import bitarr_to_hex
 
 HEX_KEY = 'AABB09182736CCDD'

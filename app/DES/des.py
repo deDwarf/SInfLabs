@@ -1,9 +1,8 @@
-from app.DES import constants
+from app.DES import constants, des_key as dk
 from bitarray import bitarray
 import typing as t
-from app.DES.des_key import des_key as dk
 import app.DES.bit_utils as bu
-from app.DES.des_key.des_key import DESKey, Mode, KeyType
+from app.DES.des_key import DESKey, Mode, KeyType
 
 
 def reduce(bits: bitarray) -> bitarray:

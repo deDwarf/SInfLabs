@@ -1,6 +1,5 @@
 from unittest import TestCase
 from app.DES.des import algorithm
-from app.DES.des_key.des_key import *
 from app.DES.bit_utils import bitarr_to_hex
 
 
