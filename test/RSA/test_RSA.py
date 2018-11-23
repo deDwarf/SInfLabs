@@ -10,7 +10,7 @@ class TestRSA(TestCase):
         # key = RSAKeyGenerator.get_key(61, 53, 17)
         key = RSAKeyGenerator.generate_key()
         print("Generated key: public{}, private{}".format(key.get_public_key(), key.get_private_key()))
-        text = "{lalala"
+        text = "This is gonna be encrypted using RSA"
         print("Original text: '{}'".format(text))
         encrypted = RSA.encrypt(text, key)
         print("Encrypted: " + encrypted)
